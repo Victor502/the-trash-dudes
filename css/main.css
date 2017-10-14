@@ -1,0 +1,96 @@
+*{
+    box-sizing: border-box;
+}
+
+/**********  Carousel  **********/
+.carousel-inner img {
+    width: 100%;
+    height: 300px;
+    margin: auto;
+}
+
+/**********  Countdown  **********/
+#clock {
+    font-size: 1.25rem;
+    text-align: center;
+    margin: 20px auto;
+}
+
+/**********  Alanis Hands Font  **********/
+#trash-dudes{
+    text-align: center;
+    font-family: AlanisHand, Arial, sans-serif;
+    font-size: 4rem;
+}
+
+#trash-dudes1{
+    text-align: center;
+    font-family: AlanisHand, Arial, sans-serif;
+    font-size: 1.75rem;
+}
+
+@font-face {
+    font-family: AlanisHand;
+    src: url("../fonts/AlanisHand.ttf");
+}
+
+/**********  Main Content  **********/
+.lead {
+    text-align: center;
+    margin: 15px;
+}
+
+
+
+/**********  Footer  **********/
+
+footer{
+    text-align: center;
+    margin: auto;
+}
+
+
+/**********  Media  **********/
+
+@media (min-width: 720px) {
+    
+    .carousel-inner img {
+    width: 65%;
+    height: 350px;
+    margin: auto;
+}
+    #trash-dudes{
+    text-align: center;
+    font-family: AlanisHand, Arial, sans-serif;
+    font-size: 6rem;
+        margin: auto;
+}
+    #trash-dudes1 {
+    text-align: center;
+    font-family: AlanisHand, Arial, sans-serif;
+    font-size: 3rem;
+        padding: 0 30px;
+}
+    .logo-navbar{
+        width: 60px; 
+        height: 60px;
+        margin: auto;
+    }
+    .jumbotron p {
+        margin: 20px 60px;
+    }
+    #navbarNav {
+        margin-right: 50px;
+    }
+   
+}
+
+@media (min-width: 850px) {
+
+    .carousel-inner img {
+    width: 50%;
+    height: 400px;
+    margin: auto;
+}
+    
+}
