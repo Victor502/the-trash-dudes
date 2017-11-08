@@ -1,8 +1,9 @@
-*{
+* {
     box-sizing: border-box;
 }
 
 /**********  Carousel  **********/
+
 .carousel-inner img {
     width: 100%;
     height: 300px;
@@ -10,10 +11,11 @@
 }
 
 /**********  Countdown  **********/
+
 #clock {
     font-size: 1.5rem;
     text-align: center;
-    margin: 20px auto 0; 
+    margin: 20px auto 0;
 }
 
 /**********  Funding  **********/
@@ -25,13 +27,14 @@
 
 
 /**********  Alanis Hands Font  **********/
-#trash-dudes{
+
+#trash-dudes {
     text-align: center;
     font-family: AlanisHand, Arial, sans-serif;
     font-size: 4rem;
 }
 
-#trash-dudes1{
+#trash-dudes1 {
     text-align: center;
     font-family: AlanisHand, Arial, sans-serif;
     font-size: 1.75rem;
@@ -43,6 +46,7 @@
 }
 
 /**********  Main Content  **********/
+
 .lead {
     text-align: center;
     margin: 15px;
@@ -52,7 +56,7 @@
 
 /**********  Footer  **********/
 
-footer{
+footer {
     text-align: center;
     margin: auto;
 }
@@ -61,44 +65,51 @@ footer{
 /**********  Media  **********/
 
 @media (min-width: 720px) {
-    
+
     .carousel-inner img {
-    width: 65%;
-    height: 350px;
-    margin: auto;
-}
-    #trash-dudes{
-    text-align: center;
-    font-family: AlanisHand, Arial, sans-serif;
-    font-size: 6rem;
-        margin: auto;
-}
-    #trash-dudes1 {
-    text-align: center;
-    font-family: AlanisHand, Arial, sans-serif;
-    font-size: 3rem;
-        padding: 0 30px;
-}
-    .logo-navbar{
-        width: 60px; 
-        height: 60px;
+        width: 65%;
+        height: 350px;
         margin: auto;
     }
+    #trash-dudes {
+        text-align: center;
+        font-family: AlanisHand, Arial, sans-serif;
+        font-size: 6rem;
+        margin: auto;
+    }
+    #trash-dudes1 {
+        text-align: center;
+        font-family: AlanisHand, Arial, sans-serif;
+        font-size: 3rem;
+        padding: 0 30px;
+    }
+
     .jumbotron p {
         margin: 20px 60px;
     }
     #navbarNav {
         margin-right: 50px;
     }
-   
+
+}
+
+#trashdudelogo {
+    width: 70px;
+    height: 40px;
 }
 
 @media (min-width: 850px) {
 
     .carousel-inner img {
-    width: 50%;
-    height: 400px;
-    margin: auto;
-}
-    
+        width: 50%;
+        height: 400px;
+        margin: auto;
+    }
+
+    #trashdudelogo {
+        width: 90px;
+        height: 60px;
+        margin: auto;
+    }
+
 }
