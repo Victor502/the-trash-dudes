@@ -1,5 +1,5 @@
 
-$('#clock').countdown('2017/11/13').on('update.countdown', function(event) {
+$('#clock').countdown('2017/11/20').on('update.countdown', function(event) {
   var $this = $(this).html(event.strftime(''
     + '<span>%-d</span> day%!d '
     + '<span>%H</span> hr '
